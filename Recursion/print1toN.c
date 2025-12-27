@@ -15,7 +15,7 @@ int main()
     return 0;
 }
 /*
-Time complextiy  : O(n)
+Time complexity  : O(n)
 Space complexity : O(n)
 */
 
