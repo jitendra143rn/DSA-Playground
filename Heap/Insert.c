@@ -19,6 +19,14 @@ void swap(int *a, int *b)
     *b = temp;
 }
 
+/*
+Steps:
+	1.	Insert element at end of array
+	2.	Compare with parent
+	3.	If larger → swap
+	4.	Repeat until heap property satisfied
+
+*/
 void Insert(MaxHeap *h, int val)
 {
     int i = h->size;
