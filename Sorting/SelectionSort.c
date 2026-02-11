@@ -20,7 +20,7 @@ void SelectionSort(int A[], int size)
 
     int i, j, k;
 
-    for (i = 0; i < size; i++)
+    for (i = 0; i < size -1; i++)
     {
         for (j = k = i; j < size ; j++)
         {
